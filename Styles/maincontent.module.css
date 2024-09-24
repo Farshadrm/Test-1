@@ -1,0 +1,524 @@
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+/*Dropdown menu styles*/
+
+.dropdownContainer {
+    position: relative;
+    min-width: 200px;
+    height: 100%;
+    
+  }
+
+ 
+
+  .groupBtn {
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 10px;
+    background-color: #ffffff;
+    color: #424242;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .groupBtn:hover{
+    background-color: #ebebeb;
+    border-radius: 4px;
+    margin: 0px 2px 0px 4px;
+    width:96%;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffffff;
+    color: #424242;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    border: none;
+    width:170px;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+
+  .menu:hover {
+    background-color: #ebebeb;
+    border-radius: 4px;
+    margin: 0px 2px 0px 4px;
+    width:162px;
+    
+  }
+  
+.items{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242424;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+}
+.items:hover{
+    background-color: #ebebeb;
+    border-radius: 4px;
+    margin: 0px 2px 0px 4px;
+    width:120px;
+}
+
+
+
+
+/*maincontent styles*/
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: 1px solid #d1d1d1;
+}
+
+.firstChart {
+    width: 281.75px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 24px 12px 12px 24px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border: 1px solid #ffffff;
+    position: relative;
+}
+
+.secondChart {
+    width: 281.75px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 24px 12px 12px 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border: 1px solid #ffffff;
+    position: relative;
+}
+
+.thirdChart {
+    width: 487.5px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 24px 12px 12px 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border: 1px solid #ffffff;
+    position: relative;
+}
+
+.fourthChart {
+    width: 266px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0px 12px 12px 24px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border: 1px solid #ffffff;
+    position: relative;
+}
+
+.fifthChart {
+    width: 281.75px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0px 12px 12px 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border: 1px solid #ffffff;
+    position: relative;
+}
+
+.sixthChart {
+    width: 503.25px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0px 12px 12px 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border: 1px solid #ffffff;
+    position: relative;
+}
+
+.chartName {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #242424;
+}
+
+.description {
+    font-size: 12px;
+    color: #616161;
+}
+
+.dotsBtn {
+    color: #424242;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.upHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstChart .eachSectionChart {
+    width: 249.75px;
+    height: 236px;
+    /* background-color: aqua; */
+    margin-top: -5%;
+    margin-left: 10px;
+    
+    position: relative;
+}
+.secondChart .eachSectionChart {
+    width: 240px;
+    height: 210px;
+    /* background-color: aqua; */
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.thirdChart .eachSectionChart {
+    width: 455.5px;
+    height: 236px;
+    /* background-color: aqua; */
+    padding: 0px;
+    margin: 16px;
+}
+.fourthChart .eachSectionChart {
+    width: 234px;
+    height: 280px;
+    /* background-color: aqua; */
+    padding: 10px;
+    margin: 16px;
+}
+.fifthChart .eachSectionChart {
+    width: 249.75px;
+    height: 236px;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    padding-left: -10px;
+    margin: 16px;
+}
+.sixthChart .eachSectionChart {
+    width: 471.5px;
+    height: 272px;
+    /* background-color: aqua; */
+    padding: 0px;
+    margin: 16px;
+    box-sizing: border-box;
+}
+
+.viewDetailsContainer{
+    position: absolute;
+    bottom: 8px;
+}
+
+.viewDetails {
+    
+    font-size: 14px;
+    line-height: 20px;
+    color: #5b5fc7;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.btnsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.underBtnsContainer {
+    color: #424242;;
+    border: none;
+    background-color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.tabs button {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #424242;
+}
+
+/* .tabs button:active {
+    background-color: #ff0000;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+} */
+
+.thikcontainer{
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+/* hhhhhhhhhhh */
+
+
+
+
+
+
+.thikcontainer:before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    margin-top: 25px;
+    border-radius: 7px;
+    background-color: #5b5fc7;  
+}
+
+.active:before , .thikcontainer:hover:before{
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 2px;
+    margin-top: 25px;
+    border-radius: 7px;
+    background-color: #5b5fc7;
+    
+}
+
+.thikcontainer:hover , .active{
+    color: #242424 !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .dropdownContainer {
+        display: none;
+        }
+
+    .container {
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 60px;
+        
+    }
+
+    .firstChart {
+        margin: 16px;
+        padding: 0;
+        width: 358px;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.5);
+        border: 1px solid #ffffff;
+        position: relative;
+    }
+    
+    .firstChart .eachSectionChart {
+        
+        height: 200px;
+        width: 200px;
+        padding: 0px;
+        margin-left: 18%;
+        margin-top: -7%;
+        position: relative;
+    }
+
+    .gaugechartlegend{
+        display: none !important;
+    }
+
+    .upHeader {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 12px 0px 12px;
+    }
+    .description {
+        display: none;
+    }
+    .tabs{
+        width: 176px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        padding-left: 25%;
+    }
+    .viewDetailsContainer{
+        position: absolute;
+        bottom: 20px;
+        right: 12px;
+
+    }
+    
+    .viewDetails {
+        
+        font-size: 14px;
+        line-height: 20px;
+        color: #5b5fc7;
+        text-decoration: none;
+        margin-top: 100px;
+        font-weight: 600;
+    }
+
+    .secondChart {
+        margin: 16px;
+        padding: 0;
+        width: 358px;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.5);
+        border: 1px solid #ffffff;
+        position: relative;
+    }
+    
+    .thirdChart {
+        margin: 16px;
+        padding: 0;
+        width: 358px;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.5);
+        border: 1px solid #ffffff;
+        position: relative;
+    }
+    
+    .fourthChart {
+        margin: 16px;
+        padding: 0;
+        width: 358px;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.5);
+        border: 1px solid #ffffff;
+        position: relative;
+    }
+    
+    .fifthChart {
+        margin: 16px;
+        padding: 0;
+        width: 358px;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.5);
+        border: 1px solid #ffffff;
+        position: relative;
+    }
+    
+    .sixthChart {
+        margin: 16px;
+        padding: 0;
+        width: 358px;
+        height: 280px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.5);
+        border: 1px solid #ffffff;
+        position: relative;
+    }
+
+    .secondChart .eachSectionChart {
+        height: 190px !important;
+        width: 271px !important;
+        padding: 0px;
+        margin-left: 8%;
+        margin-top: 5%;
+        position: relative;
+    }
+    .thirdChart .eachSectionChart {
+        height: 300px;
+        width: 300px;
+        padding: 0px;
+        margin-left: 9%;
+        position: relative;
+    }
+    .fourthChart .eachSectionChart {
+        height: 200px;
+        width: 200px;
+        padding: 10px;
+        margin-left: 14%;
+        margin-top: 1%;
+        position: relative;
+        /* background-color: aqua; */
+    }
+    .fifthChart .eachSectionChart {
+        height: 180px;
+        width: 180px;
+        padding: 0px;
+        margin-left: 22%;
+        margin-top: -5%;
+        position: relative;
+    }
+    .sixthChart .eachSectionChart {
+        height: 180px;
+        width: 270px;
+        padding: 0px;
+        margin-left: 13%;
+        margin-top: -7%;
+        position: relative;
+    }
+}
